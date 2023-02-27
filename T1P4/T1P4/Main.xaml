@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="T1P4.Main">
+    <ContentPage.Content >
+        <StackLayout BackgroundColor="white">
+            <Label Text="Ingrese datos" BackgroundColor="Blue" FontSize="Large" TextColor="White" Margin="20" HorizontalTextAlignment="Center" />
+
+            <Entry x:Name="txtN1" Placeholder="Ingrese El Primer Número" HorizontalOptions="Center" Keyboard="Numeric" BackgroundColor="GhostWhite" Margin="10" PlaceholderColor="Red" TextColor="Black"/>
+            <Entry x:Name="txtN2" Placeholder="Ingrese El Primer Número" HorizontalOptions="Center" Keyboard="Numeric" BackgroundColor="GhostWhite" PlaceholderColor="Red" TextColor="Black"/>
+
+            <Label Text="Seleccione la Operación"  HorizontalTextAlignment="Center" BackgroundColor="Blue" FontSize="Large" TextColor="White" Margin="20"/>
+            <Button x:Name="btnSuma" Text="+" BackgroundColor="LightGray" TextColor="Black" FontSize="Large" FontAttributes="Bold" BorderColor="Black" BorderWidth="5" HorizontalOptions="Center" Clicked="btnSuma_Clicked"/>
+            <Button x:Name="btnResta" Text="-" BackgroundColor="LightGray" TextColor="Black" FontSize="Large" FontAttributes="Bold" BorderColor="Black" BorderWidth="5" HorizontalOptions="Center" Clicked="btnResta_Clicked"/>
+            <Button x:Name="btnDividir" Text="/" BackgroundColor="LightGray" TextColor="Black" FontSize="Large" FontAttributes="Bold" BorderColor="Black" BorderWidth="5" HorizontalOptions="Center" Clicked="btnDividir_Clicked"/>
+            <Button x:Name="btnMultiplicar" Text="X" BackgroundColor="LightGray" TextColor="Black" FontSize="Large" FontAttributes="Bold" BorderColor="Black" BorderWidth="5" HorizontalOptions="Center" Clicked="btnMultiplicar_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

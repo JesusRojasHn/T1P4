@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="T1P4.Result">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <Label Text="SU RESULTADO ES:" TextColor="White" Margin="20" HorizontalTextAlignment="Center" BackgroundColor="Blue" FontAttributes="Bold" FontSize="Large"/>
+            <Label Text="{Binding OP}" TextColor="Black" Margin="5" HorizontalTextAlignment="Center" FontSize="Large" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
